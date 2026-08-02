@@ -1,8 +1,25 @@
 aid: tempo-automation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tempo-automation.png
 name: Tempo Automation
-description: 'Tempo Automation is a company surfaced as a portfolio company of lux-capital, uncork-capital
-  and added to the API Evangelist network as a stub for enrichment. Sector: manufacturing. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Tempo Automation is a San Francisco-based software-automated printed circuit board
+  assembly (PCBA) manufacturer, founded in 2013 and formerly publicly traded on Nasdaq as TMPO.
+  Its software-driven manufacturing platform was built to take complex electronics from design to
+  physical prototype and new product introduction in as little as a few days, serving customers in
+  aerospace, medical technology, semiconductor, industrial, and automotive. It was surfaced in the
+  API Evangelist network as a portfolio company of Lux Capital and Uncork Capital. The company does
+  not publish a public developer API, SDK, or developer portal; its current website is a single-page
+  placeholder offering on-demand circuit board manufacturing through a contact form.'
 url: https://raw.githubusercontent.com/api-evangelist/tempo-automation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Manufacturing
+- Electronics
+- Printed Circuit Board
+- PCB Assembly
+- Hardware
+- Prototyping
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/tempo-automation-domain-security.yml
 - type: Website
   url: https://www.tempoautomation.com
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
